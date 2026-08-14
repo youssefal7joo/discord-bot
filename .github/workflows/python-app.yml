@@ -23,6 +23,6 @@ jobs:
         pip install discord.py
     - name: Run Discord Bot
       env:
-        DISCORD_BOT_TOKEN: ${{MTUzNzY2NzYwMDAxNDc3ODQ4OA.GOHHGi.oSWYOhvE8KqkLyiTJ6aDjoN-ewFK0tK9b7MC7A}}
+        DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_TOKEN }}
       run: |
         python bot.py
