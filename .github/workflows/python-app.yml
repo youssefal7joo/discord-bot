@@ -24,5 +24,5 @@ jobs:
     - name: Run Discord Bot
       env:
         DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_TOKEN }}
-      run: |
-        python MyDiscordBot/main.py
+     run: |
+              python MyDiscordBot/bot.py/main.py
